@@ -147,4 +147,9 @@ Set `monitoring.switchQuorum` to a positive value to force a fixed quorum.
 Automated normal Discord user accounts/selfbots are not permitted by Discord's platform rules. Official bot accounts are the supported production approach.
 
 ## Showcase video
-https://github.com/7Seven-Corp/anti-ddos-voice-channel/blob/main/showcase.mp4
+
+
+
+https://github.com/user-attachments/assets/8dcb5520-117e-403b-aa81-0edfc5907d1e
+
+
