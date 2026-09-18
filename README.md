@@ -145,3 +145,7 @@ Set `monitoring.switchQuorum` to a positive value to force a fixed quorum.
 `config.json` contains account tokens and must never be committed.
 
 Automated normal Discord user accounts/selfbots are not permitted by Discord's platform rules. Official bot accounts are the supported production approach.
+
+## Showcase video
+[Watch the demo](./AntiDdos-Voc.mp4)
+
