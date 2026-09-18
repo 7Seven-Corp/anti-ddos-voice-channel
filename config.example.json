@@ -1,0 +1,48 @@
+{
+  "logsGuildId": "1272313642435477668",
+  "logsChannelId": "1550545008988258325",
+  "sentinels": [
+    {
+      "name": "Sentinel-01",
+      "token": "ACCOUNT_TOKEN_1",
+      "guildId": "TARGET_GUILD_ID_1",
+      "channelId": "TARGET_VOICE_CHANNEL_ID_1",
+      "enabled": true
+    },
+    {
+      "name": "Sentinel-02",
+      "token": "ACCOUNT_TOKEN_2",
+      "guildId": "TARGET_GUILD_ID_2",
+      "channelId": "TARGET_VOICE_CHANNEL_ID_2",
+      "enabled": true
+    },
+    {
+      "name": "Sentinel-03",
+      "token": "ACCOUNT_TOKEN_3",
+      "guildId": "TARGET_GUILD_ID_1",
+      "channelId": "TARGET_VOICE_CHANNEL_ID_1",
+      "enabled": true
+    }
+  ],
+  "monitoring": {
+    "initialRegion": "rotterdam",
+    "pingLimit": 180,
+    "criticalPingLimit": 350,
+    "badSamplesRequired": 1,
+    "checkInterval": 2000,
+    "reconcileInterval": 5000,
+    "switchCooldown": 12000,
+    "criticalSwitchCooldown": 5000,
+    "startupGrace": 6000,
+    "postSwitchGrace": 5000,
+    "connectingLimit": 5000,
+    "signallingLimit": 5000,
+    "disconnectedLimit": 3000,
+    "noPingLimit": 20000,
+    "stateFlapWindow": 12000,
+    "stateFlapLimit": 3,
+    "sentinelReconnectCooldown": 8000,
+    "loginStagger": 1500,
+    "switchQuorum": 0
+  }
+}
